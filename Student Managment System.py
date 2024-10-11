@@ -53,7 +53,7 @@ def addstudent():
     emailentry.place(x=250, y=190)
 
     addressentry = Entry(addroot, font=('roman', 15, 'bold'), bd=5, textvariable=addressval)
-    addressentry.place(x=250, y=250)
+    addressentry.place(x=250, y=255)
 
     genderentry = Entry(addroot, font=('roman', 15, 'bold'), bd=5, textvariable=genderval)
     genderentry.place(x=250, y=310)
